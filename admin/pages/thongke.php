@@ -110,7 +110,6 @@ if ($startDate && $endDate) {
             </div>
         </div>
     </div>
-
     <!-- Thư viện Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
@@ -156,7 +155,6 @@ if ($startDate && $endDate) {
                 }
             }
         });
-
         // Dữ liệu biểu đồ theo ngày từ PHP
         const chartDataDay = <?php echo json_encode($chartDataDay); ?>;
         if (chartDataDay.length > 0) {
